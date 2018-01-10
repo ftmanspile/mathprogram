@@ -7,4 +7,15 @@ def test_assert_that_1_equals_1
     assert_equal(1,1)
 end
 
+def test_assert_1_plus_1_equals
+	assert_equal(2, addition(1,1))
+end
+
+def test_assert_that_2_plus_3_equal_5
+	assert_equal(5, addition(2,3))
+end
+
+def test_assert_that_10_minus_5_equals_5
+	assert_equal(5, subtraction(10,5))
+end
 end
