@@ -16,6 +16,7 @@ def test_assert_that_2_plus_3_equal_5
 end
 
 def test_assert_that_10_minus_5_equals_5
-	assert_equal(5, subtraction(10,5))
+	result = subtraction(10,5)
+	assert_equal(5,result)
 end
 end
