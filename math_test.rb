@@ -19,4 +19,14 @@ def test_assert_that_10_minus_5_equals_5
 	result = subtraction(10,5)
 	assert_equal(5,result)
 end
+
+def test_assert_that_12_multiply_12_equals_144
+	result = multiply(12,12)
+	assert_equal(144,result)
+end
+
+def test_assert_that_9_divided_by_3_equals_3
+	result = division(9,3)
+	assert_equal(3,result)
+end
 end
